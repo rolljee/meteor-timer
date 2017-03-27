@@ -4,7 +4,7 @@ Using [visibility js](https://www.npmjs.com/package/visibilityjs) we are able to
 
 The purpose was to create a tiny Timer who loop each second
 
-Then using transform method of Meteor collection, add value each second to the gold / wood / rock / food ressources for a specific user
+Then using transform method of Meteor collection, to add value each second to the gold / wood / rock / food ressources for a specific user
 
 ## Usage  
 
