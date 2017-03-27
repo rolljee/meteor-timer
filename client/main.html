@@ -1,0 +1,18 @@
+<head>
+  <title>timersForOgame</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> main}}
+</body>
+
+<template name="main">
+  {{#with userRessources}}
+  <div>{{gold}}--Or</div>
+  <div>{{wood}}--Bois</div>
+  <div>{{rock}}--Pierre</div>
+  <div>{{food}}--Nourriture</div>
+  {{/with}}
+</template>
